@@ -1,4 +1,4 @@
-# rockstar-status
+# Rockstar Services Status
  Simple Rockstar Games service status API wrapper
 
 # Credits
@@ -14,6 +14,5 @@ const ServiceStatus = require('rockstar-status');
 console.log(ServiceStatus) // Returns status for all services
 console.log(ServiceStatus.redDedOnline) //Returns status for all RDR2 platforms
 console.log(ServiceStatus.gtao.pc) //Returns service status for GTA:O PC platform
-
 
 });
